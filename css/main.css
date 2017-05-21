@@ -3,11 +3,7 @@ body {
 	font-size:15px;
 	font-family: Georgia, serif;
 }
-#pagedaccueil {
-	background-image: url('../images/livre1.jpg');
-	background-size: cover;
-	background-repeat: no-repeat;
-}
+
 #menu {
 	position: fixed;
 	display: inline-block;
@@ -29,37 +25,60 @@ body {
 	}
 #menu a:hover {
 	color: black;
-}	
-
-#footer {
-	top: +95%;
-	margin-left: +95%;
-	position: fixed;
-	display: inline-block;
 }
-img.facebook{
-	height: 4vh;
-	padding: 0;
-}
-
 #pagedaccueil {
 	min-height: 100vh;
+	padding: 70px;
+}
+#pagedaccueil h2 {
+	padding-top: 30px;
+	font-size: 1.7em;
+	color: grey;
+	font-style: italic;
+	text-align: center;
+}
+.contributor {
+	border-radius: 50%;
+}
+#pagedaccueil p {
+	font-size: 1em;
+	color: grey;
+	text-align: center;
+	font-style: italic;
+	}
+#presentation {
+	padding-left: 60px;
+	padding-right: 60px;
+	padding-top: 50px;
+	padding-bottom: 30px;
 }
 
+#contributors {
+	float: left;
+	width: 30%;
+	margin: 3% 10%;
+}
 #leslivresenvrac {
 	min-height: 100vh;
 	padding: 7% 5% 5% 5%;
 	margin: auto; 
 }
-#leslivresenvrac h1 {
-	text-align: center;
-	font-size: 2em;
-	color: grey;
-	font-family: Georgia, serif;
-	font-style: italic;
-	text-decoration: none;
-	margin-bottom: 0.5em;
+#banner img {
+	height: 6vh;
+	padding: 0;
+}
+#banner {
+	display: center;
+	padding-top: 30px;
+	padding-left: 50px;
+	padding-right: 50px;
 	/** border: 2px solid grey;**/
+}
+.amazon {
+	float: right;
+}
+.smiley {
+	float: right;
 }
 #leslivresenvrac h2 {
 	font-size: 1.3em;
@@ -78,7 +97,7 @@ img.facebook{
 }
 #semaine {
 	float: left;
-	width: 22.5%;
+	width: 23%;
 }
 .livre {
 	/** border: 2px solid grey;**/
@@ -86,7 +105,9 @@ img.facebook{
 	padding-left: 50px;
 }
 #a {
-	padding: 10px;
+	padding: 5px;
     text-align: center;
 	/** border: 2px solid grey;**/
 }
+
+	/** border: 2px solid grey;**/
