@@ -72,7 +72,7 @@ body {
 	padding-top: 30px;
 	padding-left: 50px;
 	padding-right: 50px;
-	/** border: 2px solid grey;**/
+	min-height: 10vh;
 }
 .amazon {
 	float: right;
@@ -97,16 +97,19 @@ body {
 }
 #semaine {
 	float: left;
-	width: 23%;
+	width: 300px;
 }
 .livre {
-	/** border: 2px solid grey;**/
-	padding: 30px;
-	padding-left: 50px;
+	min-height: 40vh;
+	padding-left: 25%;
+}
+#b {
+	min-height: 40vh;
 }
 #a {
 	padding: 5px;
     text-align: center;
+    min-height: 20vh;
 	/** border: 2px solid grey;**/
 }
 
